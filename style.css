@@ -1,0 +1,90 @@
+/* remove thic comment to add @import font or CSS variables at the top of this file */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: serif;
+  font-size: 10px;
+  line-height: 1rem;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+  font-family: sans-serif;
+  h1{
+    text-align: center;
+  }
+}
+
+/* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: serif;
+  font-size: 10px;
+  line-height: 1rem;
+}
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+  font-family: sans-serif;
+  h1{
+    text-align: center;
+  }
+}
+a.button {
+  display: inline-block; 
+  padding: 6px 12px;
+  border: 1px solid #a66;
+  border-radius: 4px; 
+  color: #a66;
+  background-color: white; 
+  text-decoration: none; 
+  font-size: 20px; 
+  text-align: center; 
+  line-height: normal; 
+  cursor: pointer; 
+}
+
+a.button:hover {
+  background-color: #f0e0e0; 
+  border-color: #933; 
+  color: #933; 
+}
+
+a.linkColor{
+  color:#a66
+}
