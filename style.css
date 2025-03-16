@@ -65,7 +65,7 @@ header, footer {
     text-align: center;
   }
 }
-a.button {
+nav a {
   display: inline-block; 
   padding: 6px 12px;
   border: 1px solid #a66;
@@ -79,12 +79,39 @@ a.button {
   cursor: pointer; 
 }
 
-a.button:hover {
+nav a:hover {
   background-color: #f0e0e0; 
   border-color: #933; 
   color: #933; 
 }
 
-a.linkColor{
+aside a{
   color:#a66
+}
+
+a{
+  color:#a66
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+h2 + p{
+  text-indent: 30px;
+}
+
+a[href^="http"]:not([href*="yourwebsite.com"])::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  background-image: url('external-link-52.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+aside a:visited{
+  color: #a66;
 }
